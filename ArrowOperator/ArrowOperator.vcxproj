@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0c09019e-9b7f-4514-920a-d4763ac605f1}</ProjectGuid>
-    <RootNamespace>CppReference</RootNamespace>
+    <ProjectGuid>{57765b78-6150-4a58-94f7-32f00c0f778f}</ProjectGuid>
+    <RootNamespace>ArrowOperator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
