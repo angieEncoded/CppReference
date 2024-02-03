@@ -44,8 +44,8 @@ int main() {
 	std::cout << "============================================================" << std::endl;
 	std::vector<Vertex> optimizePlacementVector;
 	optimizePlacementVector.reserve(3); // this will tell it how big to initially be
-	optimizePlacementVector.emplace_back((float)1, (float)2, (float)3 );
-	optimizePlacementVector.emplace_back((float)4, (float)5, (float)6);
-	optimizePlacementVector.emplace_back(7, (float)8, (float)9);
-
+	optimizePlacementVector.emplace_back((float)1, (float)2, (float)3); // I cast them to a float to get rid of 
+	optimizePlacementVector.emplace_back((float)4, (float)5, (float)6); // warning C4244
+	optimizePlacementVector.emplace_back((float)7, (float)8, (float)9);
+	 
 }
